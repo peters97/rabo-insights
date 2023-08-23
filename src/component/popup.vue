@@ -41,11 +41,16 @@ const exportClicked = () => {
 </script>
 
 <template>
-    <select v-model="exportType">
-        <option value="label_value">Labels and values</option>
-        <option value="values_only">Values only</option>
-    </select>
-    <button @click="exportClicked">Copy insights to clipboard</button>
+    <p class="popup-title">Export insights</p>
+
+    <main>
+        <select v-model="exportType">
+            <option value="label_value">Labels and values</option>
+            <option value="values_only">Values only</option>
+        </select>
+
+        <button @click="exportClicked">Copy insights to clipboard</button>
+    </main>
 
     <textarea ref="textArea" v-model="data"></textarea>
 </template>

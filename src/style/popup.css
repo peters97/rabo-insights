@@ -1,19 +1,54 @@
+:root {
+    --body-bg: #f6f6f6;
+
+    --color-rabo-blue: #0059ff;
+    --color-rabo-orange: #ff6600;
+    --color-rabo-orange-lighter: #fe8534;
+
+    --border-color: #8fb3d7;
+}
+
 body {
     min-width: 250px;
-    min-height: 500px;
-    background: #000;
+    min-height: 200px;
+    padding: 1rem;
+    background: var(--body-bg);
+}
 
-    color: #fff;
+.popup-title {
+    font-style: italic;
+    color: var(--color-rabo-blue);
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 300;
+}
+
+main {
+    background: #fff;
+    padding: 1rem 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+select {
+    background: transparent;
+    border-radius: 4px;
+    padding: 4px 16px;
+    border: 1px solid var(--border-color);
+    width: 100%;
 }
 
 button {
-    background: rgba(120, 120, 128, 0.32);
+    background: var(--color-rabo-orange);
     border: 0;
     border-radius: 100px;
     padding: 4px 16px;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
 }
+
 button:hover {
-    background: rgba(120, 120, 128, 0.20);
+    background: var(--color-rabo-orange-lighter);
 }
 
 textarea {
