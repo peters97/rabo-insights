@@ -1,8 +1,8 @@
 {
-  "name": "Page Redder",
+  "name": "Rabo Insights",
   "manifest_version": 3,
   "version": "0.1",
-  "description": "Turns the page red when you click the icon",
+  "description": "Allows you to export rabo insights to csv.",
   "permissions": [
     "activeTab",
     "scripting"
