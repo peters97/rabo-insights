@@ -5,6 +5,11 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -22,5 +27,5 @@
       "@types/chrome",
     ]
   },
-  "include": ["src"]
+  "include": ["src/**/*", "src/**/*.vue", "**/*.d.ts"]
 }

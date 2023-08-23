@@ -1,3 +1,8 @@
+import { createApp } from "vue";
+import popup from './component/popup.vue';
+
+createApp(popup).mount('#app');
+
 
 const dataField = document.querySelector<HTMLTextAreaElement>('.js-data-field');
 
