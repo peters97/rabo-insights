@@ -16,7 +16,7 @@ export class InsightsData {
     public 'Vervoer': number = 0;
     public 'Cadeaus': number = 0;
     public 'Goede doelen': number = 0;
-    public 'Internet; TV & bellen': number = 0;
+    public 'Internet, TV & bellen': number = 0;
     public 'Huishouden & elektronica': number = 0;
     public 'Tuin & dier': number = 0;
     public 'Onderwijs': number = 0;

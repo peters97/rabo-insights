@@ -10,6 +10,7 @@ export default defineConfig({
         },
     },
     build: {
+        minify: false,
         watch: {
             include: 'src/*.ts',
         },

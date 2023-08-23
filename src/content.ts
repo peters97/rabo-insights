@@ -5,6 +5,8 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
         return;
     }
 
+    // alert('ayyyy');
+
     sendResponse(Insights.getData());
 
     return true;

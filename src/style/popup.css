@@ -1,0 +1,6 @@
+textarea {
+    position: absolute;
+    top: -100vw;
+    left: -100vh;
+    opacity: 0;
+}
