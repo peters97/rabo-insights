@@ -11,9 +11,6 @@ export default defineConfig({
     },
     build: {
         minify: false,
-        watch: {
-            include: 'src/*.ts',
-        },
         rollupOptions: {
             input: "src/manifest.json"
         }
